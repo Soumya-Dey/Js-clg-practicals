@@ -1,4 +1,4 @@
-# COMPUTER SCIENCE LAB (C-XI): Internet Technologies Lab
+## COMPUTER SCIENCE LAB (C-XI): Internet Technologies Lab
 
 Practical: 60 Lectures
 
