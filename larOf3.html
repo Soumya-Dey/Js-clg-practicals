@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            href="./images/javascript.svg"
+            sizes="16x16"
+            type="image/svg"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <title>JS Practicals</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="logo">
+                <img src="./images/javascript.svg" alt="js logo" /> Practicals
+            </div>
+            <div class="links">
+                <a href="index.html">Table program</a>
+                <a href="larOf3.html" class="active">Largest of 3</a>
+                <a href="factorial.html">Factorial</a>
+            </div>
+        </nav>
+
+        <h2 class="question">Q: Print the largest of three numbers.</h2>
+
+        <div class="container">
+            <div class="form">
+                <label>First Number</label>
+                <input
+                    type="number"
+                    name="firstNumber"
+                    class="firstNumberInput"
+                    placeholder="Enter first number..."
+                />
+                <label>Second Number</label>
+                <input
+                    type="number"
+                    name="secondNumber"
+                    class="secondNumberInput"
+                    placeholder="Enter second number..."
+                />
+                <label>Third Number</label>
+                <input
+                    type="number"
+                    name="thirdNumber"
+                    class="thirdNumberInput"
+                    placeholder="Enter third number..."
+                />
+
+                <input
+                    type="submit"
+                    value="Find the Largest Number"
+                    class="btn"
+                    onclick="largestOf3()"
+                />
+            </div>
+
+            <div class="t-cont">Largest Number will appear here...</div>
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
