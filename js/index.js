@@ -159,4 +159,5 @@ const removeParagraph = (e) => {
 const removeAllParagraphs = () => {
   const tableDiv = document.querySelector(".t-cont");
   tableDiv.innerHTML = "Paragraphs will appear here...";
+  count = 0;
 };
