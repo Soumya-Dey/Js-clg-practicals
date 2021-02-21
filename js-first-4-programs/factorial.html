@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            href="./images/javascript.svg"
+            sizes="16x16"
+            type="image/svg"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <title>JS Practicals</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <a class="logo" href="index.html">
+                <img src="./images/javascript.svg" alt="js logo" /> Practicals
+            </>
+            <div class="links">
+                <a href="index.html">Table program</a>
+                <a href="larOf3.html">Largest of 3</a>
+                <a href="factorial.html" class="active">Factorial</a>
+                <p class="show-more"><i class="fas fa-chevron-circle-down"></i></a>
+
+                    <div class="more-links">
+                        <a href="dom.html">DOM manipulation example</a>
+                    </div>
+            </div>
+        </nav>
+
+        <h2 class="question">Q: Find the factorial of a number n.</h2>
+
+        <div class="container">
+            <div class="form">
+                <label>Enter Number</label>
+                <input
+                    type="number"
+                    name="number"
+                    class="numberInput"
+                    placeholder="Enter a number..."
+                />
+
+                <input
+                    type="submit"
+                    value="Calculate Factorial"
+                    class="btn"
+                    onclick="findFactorial()"
+                />
+            </div>
+
+            <div class="t-cont">Answer will appear here...</div>
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>

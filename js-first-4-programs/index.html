@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            href="./images/javascript.svg"
+            sizes="16x16"
+            type="image/svg"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <title>JS Practicals</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <a class="logo" href="index.html">
+                <img src="./images/javascript.svg" alt="js logo" /> Practicals
+            </a>
+            <div class="links">
+                <a href="index.html" class="active">Table program</a>
+                <a href="larOf3.html">Largest of 3</a>
+                <a href="factorial.html">Factorial</a>
+                <p class="show-more"><i class="fas fa-chevron-circle-down"></i></a>
+
+                <div class="more-links">
+                    <a href="dom.html">DOM manipulation example</a>
+                </div>
+            </div>
+        </nav>
+
+        <h2 class="question">
+            Q: Print a table of numbers from a lower limit to a upper limit and
+            their squares and cubes.
+        </h2>
+
+        <div class="container">
+            <div class="form">
+                <label>Lower limit</label>
+                <input
+                    type="number"
+                    name="lowerLimit"
+                    class="lowerLimitInput"
+                    placeholder="Enter lower limit..."
+                />
+                <label>Upper limit</label>
+                <input
+                    type="number"
+                    name="upperLimit"
+                    class="upperLimitInput"
+                    placeholder="Enter upper limit..."
+                />
+
+                <input
+                    type="submit"
+                    value="Generate Table"
+                    class="btn"
+                    onclick="generateTable()"
+                />
+            </div>
+
+            <div class="t-cont">The table will appear here...</div>
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
